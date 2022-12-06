@@ -1,0 +1,27 @@
+{
+  "name": "fullstackmooc2023-phonebook-backend",
+  "version": "1.0.0",
+  "description": "Testing..",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sweettooth90/fullstackmooc2023-phonebook-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sweettooth90/fullstackmooc2023-phonebook-backend/issues"
+  },
+  "homepage": "https://github.com/sweettooth90/fullstackmooc2023-phonebook-backend#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
