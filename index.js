@@ -55,7 +55,7 @@ app.post('/api/persons', (request, response) => {
   }
 
   const person = {
-    id: Math.random() * 5,
+    id: Math.floor(Math.random() * 500),
     name: body.name,
     number: body.number
   }
