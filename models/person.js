@@ -17,9 +17,14 @@ const personSchema = new mongoose.Schema({
     minlength: 3,
     required: true
   },
-  number: String
+  number: {
+    type: String,
+    minlength: 8,
+    match: /\d{2,3}-\d{7,8}/,
+    required: true
+  }
 })
-  
+  // 2 ja 3 - 7 ja 8
 personSchema.set('toJSON', {
   transform: (document, returnedObject) => {
     returnedObject.id = returnedObject._id.toString()
